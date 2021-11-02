@@ -14,12 +14,54 @@
     Variable names are case-sensitive (age and Age deference)
 """
 
-# Creating Variables
+# Declaration of Variables
 x = 5
 y = "AShraf Uddin"
 
 print(x)
 print(y)
+
+# Integers example 2. ,3, 5, 6
+aIn = 2
+bIn = 3
+
+type(aIn),  type(bIn)
+print(aIn+bIn)
+
+# Float exmaple 33.33 44.4
+aFl = 33.44
+bFl = 45.4
+i = 1
+
+print(type(i + aFl))
+print(type(aFl))
+print(type(bFl))
+print(aFl + bFl)
+
+# Math functions
+"""
+    abs() Returns absolute value of a number
+    pow() Raises a number to a power
+    round() Rounds a floating-point value
+"""
+res = pow(3, 2)
+print(abs(-2))
+print(res)
+print(round(3.14, 1))
+
+# Strings
+s1 = "AShraf"
+s2 = "Tanjil"
+print(s1 + s2)
+
+aS = 1
+print(f"I am string with an int here {aS + 2} - and more text")
+
+# Boolean True or flase
+aB1 = True
+aB2 = False
+print(aB1)
+print(aB2)
 
 # Casting
 a = int(3.4)
