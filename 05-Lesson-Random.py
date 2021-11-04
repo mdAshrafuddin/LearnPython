@@ -28,6 +28,13 @@ Gaussian distribution in Python, use gauss() function of Python random package.
 """
 print(random.gauss(0, 1))
 
+mu = 2
+sigma = 0.5
+
+randomGauss = random.gauss(mu, sigma)
+
+print(randomGauss)
+
 """
 The random.choice() method returns a randomly 
 selected element from a non-empty sequence. 
